@@ -1,0 +1,69 @@
+{
+  "header": {
+    "name": "Elkasmi Fatima Zahra",
+    "title": "Full Stack Developer",
+    "link": "/"
+  },
+  "about": {
+    "title": "About",
+    "content": "I'm Fatima Zahra, a passionate and creative full stack development student based in Morocco. With strong roots in both frontend and backend technologies, I love crafting beautiful, responsive, and purposeful digital experiences. Currently working on personal projects like Greenly and and professional projects like Diva's Bloom, while building my dream coding agency Veyora."
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "items": [
+      {
+        "period": "Feb 2025 - Apr 2025",
+        "position": "Web developer at Euroweb Digital, Tangier, Morocco",
+        "type": "Intern",
+        "description": "Completed a remote internship where I developed a full e-commerce website using WordPress on localhost. I explored site architecture, customized themes, and integrated plugins, gaining practical skills and strengthening both my creativity and technical know-how."
+      },
+      {
+        "period": " Jul 2023 - Aug 2023",
+        "position": "Internship at Label Etudes, Tangier, Morocco",
+        "type": "Intern",
+        "description": "Assisted in technical project documentation and supported web-based tools used for civil engineering studies and site tracking. I honed my skills in project management and data analysis, contributing to the success of a real-world project."
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "period": "Oct 2023 - Present",
+        "institution": "Groupe IKI Tangier - Information Engineering",
+        "type": "Study",
+        "description": "Currently pursuing my studies in software development, focusing on both front-end and back-end technologies. Gaining solid foundations in programming, web development, and project management while working on real-world applications."
+      },
+      {
+        "period": "Sep 2023 - Present",
+        "institution": "Abdelmalek Essaadi University, Tangier - Bachelor's Degree in Human Resources Management",
+        "type": "Study",
+        "description": "Pursuing a Bachelor's degree in Human Resources Management, where I am learning about organizational behavior, talent management, and strategic HR practices. This program complements my technical skills with essential soft skills for effective team collaboration and leadership."
+      },
+      {
+        "period": "—",
+        "institution": "Moulay Rchid High School, Morocco",
+        "type": "High School Diploma",
+        "description": "Life and Earth Sciences, with honors."
+      }
+    ]
+  },
+  "contact": {
+    "title": "CONTACT",
+    "phone": "+212 6 88 88 30 30",
+    "email": "fittothediva@gmail.com",
+    "linkedin": "/Fatima Zahra Elkasmi",
+    "infos": {
+      "phone": "Phone",
+      "email": "Email",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "contacts": {
+    "phone": "0688883030",
+    "email": "fittothediva@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/fatima-zahra-elkasmi/",
+    "github": "https://github.com/fitto-0"
+  }
+}
+
