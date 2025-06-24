@@ -1,6 +1,5 @@
 "use client";
 import { ReactNode } from "react";
-import styles from "./BackgroundWrapper.module.css";
 
 export default function BackgroundLayout({
   children,
