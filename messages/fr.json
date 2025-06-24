@@ -6,22 +6,22 @@
   },
   "about": {
     "title": "À propos",
-    "content": "Je suis Fatima Zahra, une étudiante passionnée et créative en développement full stack basée au Maroc. Avec de solides compétences en technologies front-end et back-end, je conçois des expériences numériques belles, réactives et utiles. Actuellement, je travaille sur des projets personnels comme Greenly et sur des projets professionnels tels que Diva's Bloom, tout en construisant mon agence de développement de rêve : Veyora."
+    "content": "Je suis Fatima Zahra, étudiante passionnée en développement full stack basée au Maroc. Avec une solide maîtrise des technologies frontend et backend, je me spécialise dans la création d’expériences digitales réactives et centrées utilisateur. Je développe actuellement des projets personnels comme Greenly ainsi que des plateformes professionnelles comme Diva's Bloom, tout en posant les bases de ma future agence créative de codage, Veyora."
   },
   "experience": {
-    "title": "Expérience professionnelle",
+    "title": "Expérience Professionnelle",
     "items": [
       {
-        "period": "Fév 2025 - Avr 2025",
-        "position": "Développeuse web chez Euroweb Digital, Tanger, Maroc",
+        "period": "Fév 2025 – Avr 2025",
+        "position": "Stagiaire Développement Web, Euroweb Digital — Tanger, Maroc",
         "type": "Stage",
-        "description": "Stage à distance durant lequel j'ai développé un site e-commerce complet avec WordPress en local. J’ai exploré l’architecture d’un site, personnalisé des thèmes et intégré des plugins, renforçant mes compétences créatives et techniques."
+        "description": "Stage à distance axé sur le développement complet d’un site e-commerce sous WordPress. Travail sur le développement de thèmes personnalisés, l’intégration de plugins et l’optimisation de l’expérience utilisateur — affinant à la fois mes compétences techniques et ma créativité en design."
       },
       {
-        "period": "Juil 2023 - Août 2023",
-        "position": "Stagiaire chez Label Etudes, Tanger, Maroc",
+        "period": "Juil 2023 – Août 2023",
+        "position": "Stagiaire Technique, Label Études — Tanger, Maroc",
         "type": "Stage",
-        "description": "Participation à la documentation technique de projets et au support des outils web pour les études en génie civil et le suivi de chantiers. J’ai affiné mes compétences en gestion de projet et en analyse de données en contribuant à un projet réel."
+        "description": "Soutien aux équipes de génie civil via des outils web et la gestion documentaire de projets. Contribution à l’analyse de données et au suivi des processus, avec une immersion dans les flux de travail techniques et le travail collaboratif en contexte réel."
       }
     ]
   },
@@ -29,27 +29,27 @@
     "title": "Formation",
     "items": [
       {
-        "period": "Oct 2023 - Aujourd'hui",
-        "institution": "Groupe IKI Tanger - Ingénierie Informatique",
-        "type": "Études",
-        "description": "Je poursuis actuellement mes études en développement logiciel, en me concentrant sur les technologies front-end et back-end. J'acquiers de solides bases en programmation, développement web et gestion de projet à travers des applications concrètes."
+        "period": "Oct 2023 – Présent",
+        "institution": "Groupe IKI, Tanger — Génie Informatique",
+        "type": "Licence",
+        "description": "Je poursuis une licence en développement logiciel avec une spécialisation full stack. Apprentissage via des projets concrets et acquisition de compétences solides en frontend, backend et gestion de projet."
       },
       {
-        "period": "Sep 2023 - Aujourd'hui",
-        "institution": "Université Abdelmalek Essaâdi, Tanger - Licence en Gestion des Ressources Humaines",
-        "type": "Études",
-        "description": "Licence en GRH où j’étudie le comportement organisationnel, la gestion des talents et les pratiques stratégiques des RH. Cette formation complète mes compétences techniques avec des compétences humaines essentielles à la collaboration et au leadership."
+        "period": "Sep 2023 – Présent",
+        "institution": "Université Abdelmalek Essaadi, Tanger — Licence en Gestion des Ressources Humaines",
+        "type": "Licence",
+        "description": "Développement d’expertise en comportement organisationnel, gestion des talents et stratégie managériale. Ce cursus complète mon profil technique par des compétences humaines et collaboratives essentielles."
       },
       {
-        "period": "—",
+        "period": "Sep 2022 – Juin 2023",
         "institution": "Lycée Moulay Rchid, Maroc",
         "type": "Baccalauréat",
-        "description": "Sciences de la Vie et de la Terre, mention bien."
+        "description": "Obtenu avec mention, spécialité Sciences de la Vie et de la Terre."
       }
     ]
   },
   "contact": {
-    "title": "CONTACT",
+    "title": "Contact",
     "phone": "+212 6 88 88 30 30",
     "email": "fittothediva@gmail.com",
     "linkedin": "/Fatima Zahra Elkasmi",
@@ -60,7 +60,7 @@
     }
   },
   "contacts": {
-    "phone": "0688883030",
+    "phone": "+212688883030",
     "email": "fittothediva@gmail.com",
     "linkedin": "https://www.linkedin.com/in/fatima-zahra-elkasmi/",
     "github": "https://github.com/fitto-0"
