@@ -14,6 +14,12 @@ const NavBar = () => {
   const { theme, setTheme } = useTheme();
   const themeChanger = () => setTheme(theme === "dark" ? "light" : "dark");
   const t = useTranslations('header');
+  // Ensure we only render theme-dependent UI once the component is mounted to avoid
+  // a server/client HTML mismatch during hydration.
+  const [mounted, setMounted] = React.useState(false);
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <>
@@ -28,7 +34,7 @@ const NavBar = () => {
            {t('title')}
           </p>
           <Link
-            href={'#'}
+            href={'https://fzel.vercel.app/'}
             target="blank"
             className="bg-neutral-300 px-2 py-[2px] hover:opacity-80 text-neutral-600 text-sm rounded-full 
             dark:bg-neutral-600 dark:text-neutral-400"
@@ -39,14 +45,16 @@ const NavBar = () => {
         
         <div>
           <SwitchLanguage/>
-          <Button
-            className="cursor-pointer"
-            size="icon"
-            variant="ghost"
-            onClick={() => themeChanger()}
-          >
-            {theme === "dark" ? <Sun /> : <Moon />}
-          </Button>
+          {mounted && (
+            <Button
+              className="cursor-pointer"
+              size="icon"
+              variant="ghost"
+              onClick={themeChanger}
+            >
+              {theme === "dark" ? <Sun /> : <Moon />}
+            </Button>
+          )}
           
         </div>
       </div>
