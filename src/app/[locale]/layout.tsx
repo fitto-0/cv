@@ -5,6 +5,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import "../globals.css";
 import BackgroundLayout from "@/components/BackgroundWrapper";
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
+import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import { routing } from "@/i18n/routing";
 import { Toaster } from "@/components/ui/sonner"
@@ -38,6 +39,8 @@ export default async function RootLayout({
     notFound();
   }
 
+  const messages = await getMessages();
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
@@ -54,7 +57,7 @@ export default async function RootLayout({
                enableSystem
                disableTransitionOnChange
                >
-                <NextIntlClientProvider>
+                <NextIntlClientProvider messages={messages}>
                   {children}
                 </NextIntlClientProvider>
                 <Toaster />
