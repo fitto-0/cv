@@ -2,24 +2,24 @@
   "header": {
     "name": "Elkasmi Fatima Zahra",
     "title": "Développeuse Full Stack",
-    "link": "/"
+    "link": "https://fzel.vercel.app/"
   },
   "about": {
     "title": "À propos",
-    "content": "Je suis Fatima Zahra, étudiante passionnée en développement full stack basée au Maroc. Avec une solide maîtrise des technologies frontend et backend, je me spécialise dans la création d’expériences digitales réactives et centrées utilisateur. Je développe actuellement des projets personnels comme Greenly ainsi que des plateformes professionnelles comme Diva's Bloom, tout en posant les bases de ma future agence créative de codage, Veyora."
+    "content": "Je suis Fatima Zahra , étudiante en développement full-stack au Maroc, passionnée par le design épuré, les interactions fluides et les expériences digitales esthétiques. Je crée des sites web responsives, des interfaces intuitives et des applications web soignées grâce aux technologies modernes front-end et back-end. J’aime concevoir des interfaces élégantes, donner vie aux idées et transformer les concepts en produits fonctionnels et agréables à utiliser. J’apprends en continu, je développe mes compétences et j’explore de nouveaux outils dans le développement web et l’IA. Une esthétique douce, une grande attention aux détails et une expérience utilisateur réfléchie caractérisent mon travail."
   },
   "experience": {
     "title": "Expérience Professionnelle",
     "items": [
       {
         "period": "Fév 2025 – Avr 2025",
-        "position": "Stagiaire Développement Web, Euroweb Digital — Tanger, Maroc",
+        "position": "Stagiaire Développement Web, Euroweb Digital - Tanger, Maroc",
         "type": "Stage",
-        "description": "Stage à distance axé sur le développement complet d’un site e-commerce sous WordPress. Travail sur le développement de thèmes personnalisés, l’intégration de plugins et l’optimisation de l’expérience utilisateur — affinant à la fois mes compétences techniques et ma créativité en design."
+        "description": "Stage à distance axé sur le développement complet d’un site e-commerce sous WordPress. Travail sur le développement de thèmes personnalisés, l’intégration de plugins et l’optimisation de l’expérience utilisateur - affinant à la fois mes compétences techniques et ma créativité en design."
       },
       {
         "period": "Juil 2024 – Août 2024",
-        "position": "Stagiaire Technique, Label Études — Tanger, Maroc",
+        "position": "Stagiaire Technique, Label Études - Tanger, Maroc",
         "type": "Stage",
         "description": "Soutien aux équipes de génie civil via des outils web et la gestion documentaire de projets. Contribution à l’analyse de données et au suivi des processus, avec une immersion dans les flux de travail techniques et le travail collaboratif en contexte réel."
       }
@@ -30,13 +30,13 @@
     "items": [
       {
         "period": "Oct 2023 – Présent",
-        "institution": "Groupe IKI, Tanger — Génie Informatique",
+        "institution": "Groupe IKI, Tanger - Génie Informatique",
         "type": "Licence",
         "description": "Je poursuis une licence en développement logiciel avec une spécialisation full stack. Apprentissage via des projets concrets et acquisition de compétences solides en frontend, backend et gestion de projet."
       },
       {
         "period": "Sep 2023 – Présent",
-        "institution": "Université Abdelmalek Essaadi, Tanger — Licence en Gestion des Ressources Humaines",
+        "institution": "Université Abdelmalek Essaadi, Tanger - Licence en Gestion des Ressources Humaines",
         "type": "Licence",
         "description": "Développement d’expertise en comportement organisationnel, gestion des talents et stratégie managériale. Ce cursus complète mon profil technique par des compétences humaines et collaboratives essentielles."
       },

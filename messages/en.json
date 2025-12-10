@@ -6,20 +6,20 @@
   },
   "about": {
     "title": "About",
-    "content": "I'm Fatima Zahra, a passionate full stack development student based in Morocco. With a strong foundation in both frontend and backend technologies, I specialize in building responsive, user-centric digital experiences. Currently developing personal projects like Greenly and professional platforms like Diva's Bloom, while laying the foundation for my creative coding agency, Veyora."
+    "content": "I'm Fatima Zahra , a full-stack development student from Morocco with a love for clean design, smooth interactions, and beautiful digital experiences. I build responsive websites, intuitive interfaces, and polished web applications using modern frontend and backend technologies. I enjoy creating elegant UIs, bringing ideas to life, and turning concepts into functional, user-friendly products. I am constantly learning, improving my skills, and exploring new tools in web development and AI. Soft aesthetics, attention to detail, and thoughtful user experience define my work."
   },
   "experience": {
     "title": "Professional Experience",
     "items": [
       {
         "period": "Feb 2025 – Apr 2025",
-        "position": "Web Development Intern, Euroweb Digital — Tangier, Morocco",
+        "position": "Web Development Intern, Euroweb Digital - Tangier, Morocco",
         "type": "Internship",
-        "description": "Completed a remote internship focused on developing a full e-commerce website using WordPress. Worked on custom theme development, plugin integration, and optimized user experiences—sharpening both technical skills and creative design thinking."
+        "description": "Completed a remote internship focused on developing a full e-commerce website using WordPress. Worked on custom theme development, plugin integration, and optimized user experiences-sharpening both technical skills and creative design thinking."
       },
       {
         "period": "Jul 2024 – Aug 2024",
-        "position": "Technical Intern, Label Études — Tangier, Morocco",
+        "position": "Technical Intern, Label Études - Tangier, Morocco",
         "type": "Internship",
         "description": "Supported civil engineering teams through web-based tools and project documentation. Contributed to data analysis and process tracking, gaining exposure to technical project workflows and collaborative teamwork in real-world environments."
       }
@@ -30,13 +30,13 @@
     "items": [
       {
         "period": "Oct 2023 – Present",
-        "institution": "Groupe IKI, Tangier — Information Engineering",
+        "institution": "Groupe IKI, Tangier - Information Engineering",
         "type": "Undergraduate Program",
         "description": "Pursuing a degree in Software Development with an emphasis on full stack technologies. Learning through real-world projects and gaining strong skills in frontend, backend, and project management."
       },
       {
         "period": "Sep 2023 – Present",
-        "institution": "Abdelmalek Essaadi University, Tangier — B.A. in Human Resources Management",
+        "institution": "Abdelmalek Essaadi University, Tangier - B.A. in Human Resources Management",
         "type": "Bachelor's Degree",
         "description": "Building expertise in organizational behavior, talent management, and leadership strategy. This program enriches my technical background with essential human-centric and collaboration skills."
       },
