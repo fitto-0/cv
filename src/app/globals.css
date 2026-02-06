@@ -124,3 +124,28 @@ body::-webkit-scrollbar {
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes move {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(100px, -150px); }
+  66% { transform: translate(-80px, 100px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes move-slow {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(-120px, 100px) rotate(180deg); }
+  100% { transform: translate(0, 0) rotate(360deg); }
+}
+
+.animate-move {
+  animation: move 12s infinite alternate ease-in-out;
+}
+
+.animate-move-slow {
+  animation: move-slow 22s infinite alternate ease-in-out;
+}
+
+.bg-sphere {
+  @apply absolute rounded-full blur-[100px] opacity-40 pointer-events-none;
+}

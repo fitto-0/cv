@@ -5,7 +5,7 @@ const MyImage = ({className} : {className?: string}) => {
   
   return (
     <div>
-      <Image src='/images/her.png' 
+      <Image src='/images/her2.png' 
             alt="myPhoto"
             width={693}
             height={693}
