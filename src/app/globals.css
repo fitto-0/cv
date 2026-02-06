@@ -149,3 +149,12 @@ body::-webkit-scrollbar {
 .bg-sphere {
   @apply absolute rounded-full blur-[100px] opacity-40 pointer-events-none;
 }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(-10deg); }
+  50% { transform: translateY(-10px) rotate(-5deg); }
+}
+
+.animate-float {
+  animation: float 3s infinite ease-in-out;
+}

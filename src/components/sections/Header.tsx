@@ -8,6 +8,7 @@ import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import SwitchLanguage from "../SwitchLanguage";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 
 const NavBar = () => {
@@ -25,7 +26,18 @@ const NavBar = () => {
     <>
     
       <div className="items-center gap-2 md:gap-5 flex mt-20 mb-20 ">
-        <MyImage className="rounded-full size-18 md:size-24" />
+        <div className="relative">
+          <MyImage className="rounded-full size-18 md:size-24 border-2 border-neutral-300 dark:border-neutral-700 shadow-lg" />
+          {/* Attention Grabber */}
+          <div className="absolute -top-16 -left-28 pointer-events-none select-none animate-float hidden md:block w-32">
+            <p className="text-sm font-medium text-neutral-600 dark:text-neutral-400 -rotate-12 mb-2 italic text-center">
+              Try to click !
+            </p>
+            <div className="relative h-16 w-full rotate-[15deg]">
+              <Image src="/images/fleche.png" alt="arrow" fill className="object-contain filter dark:invert" />
+            </div>
+          </div>
+        </div>
         <div className="flex-1">
           <h1 className="text-lg font-medium text-neutral-800 dark:text-neutral-200">
             {t('name')}
