@@ -29,7 +29,7 @@ const NavBar = () => {
         <div className="relative">
           <MyImage className="rounded-full size-26 md:size-35 border-2 border-neutral-300 dark:border-neutral-700 shadow-lg" />
           {/* Attention Grabber */}
-          <div className="absolute -top-12 -left-8 md:-top-20 md:-left-32 pointer-events-none select-none w-24 md:w-32">
+          <div className="absolute -top-8 -left-8 md:-top-16 md:-left-32 pointer-events-none select-none w-24 md:w-32">
             <p className="text-[10px] md:text-sm font-medium text-neutral-600 dark:text-neutral-400 -rotate-12 mb-2 italic text-center">
               Try to click !
             </p>
