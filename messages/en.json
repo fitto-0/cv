@@ -12,6 +12,12 @@
     "title": "Professional Experience",
     "items": [
       {
+        "period": "Jan 2026 – Feb 2026",
+        "position": "Web Developement Intern, Syntecxhub - Remote",
+        "type": "Internship",
+        "description": "Gained hands-on experience in full-stack web development, working with modern technologies to build and improve real-world applications. Contributed to frontend interfaces, backend logic, and database integration while collaborating in an agile team environment and following clean code and best development practices."
+      },
+      {
         "period": "Feb 2025 – Apr 2025",
         "position": "Web Development Intern, Euroweb Digital - Tangier, Morocco",
         "type": "Internship",
@@ -22,12 +28,6 @@
         "position": "Technical Intern, Label Études - Tangier, Morocco",
         "type": "Internship",
         "description": "Supported civil engineering teams through web-based tools and project documentation. Contributed to data analysis and process tracking, gaining exposure to technical project workflows and collaborative teamwork in real-world environments."
-      },
-      {
-        "period": "Jan 2026 – Feb 2026",
-        "position": "Web Developement Intern, Syntecxhub - Remote",
-        "type": "Internship",
-        "description": "Gained hands-on experience in full-stack web development, working with modern technologies to build and improve real-world applications. Contributed to frontend interfaces, backend logic, and database integration while collaborating in an agile team environment and following clean code and best development practices."
       }
     ]
   },

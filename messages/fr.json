@@ -12,6 +12,12 @@
     "title": "Expérience Professionnelle",
     "items": [
       {
+        "period": "Jan 2026 – Fév 2026",
+        "position": "Stagiaire en développement web, SyntecxHub – À distance",
+        "type": "Stage",
+        "description": "Acquisition d’une expérience pratique en développement web full-stack, en utilisant des technologies modernes pour concevoir et améliorer des applications réelles. Contribution au développement des interfaces frontend, à la logique backend et à l’intégration des bases de données, tout en collaborant au sein d’une équipe agile et en respectant les bonnes pratiques de développement et de code propre."
+      },
+      {
         "period": "Fév 2025 – Avr 2025",
         "position": "Stagiaire Développement Web, Euroweb Digital - Tanger, Maroc",
         "type": "Stage",
@@ -22,12 +28,6 @@
         "position": "Stagiaire Technique, Label Études - Tanger, Maroc",
         "type": "Stage",
         "description": "Soutien aux équipes de génie civil via des outils web et la gestion documentaire de projets. Contribution à l’analyse de données et au suivi des processus, avec une immersion dans les flux de travail techniques et le travail collaboratif en contexte réel."
-      },
-      {
-        "period": "Jan 2026 – Fév 2026",
-        "position": "Stagiaire en développement web, SyntecxHub – À distance",
-        "type": "Stage",
-        "description": "Acquisition d’une expérience pratique en développement web full-stack, en utilisant des technologies modernes pour concevoir et améliorer des applications réelles. Contribution au développement des interfaces frontend, à la logique backend et à l’intégration des bases de données, tout en collaborant au sein d’une équipe agile et en respectant les bonnes pratiques de développement et de code propre."
       }
     ]
   },
