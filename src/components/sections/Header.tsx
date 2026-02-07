@@ -27,13 +27,13 @@ const NavBar = () => {
     
       <div className="items-center gap-2 md:gap-5 flex mt-20 mb-20 ">
         <div className="relative">
-          <MyImage className="rounded-full size-18 md:size-24 border-2 border-neutral-300 dark:border-neutral-700 shadow-lg" />
+          <MyImage className="rounded-full size-26 md:size-35 border-2 border-neutral-300 dark:border-neutral-700 shadow-lg" />
           {/* Attention Grabber */}
-          <div className="absolute -top-16 -left-28 pointer-events-none select-none animate-float hidden md:block w-32">
-            <p className="text-sm font-medium text-neutral-600 dark:text-neutral-400 -rotate-12 mb-2 italic text-center">
+          <div className="absolute -top-12 -left-8 md:-top-20 md:-left-32 pointer-events-none select-none w-24 md:w-32">
+            <p className="text-[10px] md:text-sm font-medium text-neutral-600 dark:text-neutral-400 -rotate-12 mb-2 italic text-center">
               Try to click !
             </p>
-            <div className="relative h-16 w-full rotate-[15deg]">
+            <div className="relative h-12 md:h-16 w-full rotate-[15deg]">
               <Image src="/images/fleche.png" alt="arrow" fill className="object-contain filter dark:invert" />
             </div>
           </div>
