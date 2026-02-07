@@ -8,6 +8,7 @@ import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import { routing } from "@/i18n/routing";
 import { Toaster } from "@/components/ui/sonner"
+import { Analytics } from "@vercel/analytics/next"
 
 
 const geistSans = Geist({
@@ -58,6 +59,7 @@ export default async function RootLayout({
                   {children}
                 </NextIntlClientProvider>
                 <Toaster />
+                <Analytics />
               </ThemeProvider>
             </MaxWidthWrapper>
           </BackgroundLayout>
