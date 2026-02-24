@@ -9,12 +9,12 @@ import { useTheme } from "next-themes";
 import SwitchLanguage from "../SwitchLanguage";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-
+import { Download } from "lucide-react";
 
 const NavBar = () => {
   const { theme, setTheme } = useTheme();
   const themeChanger = () => setTheme(theme === "dark" ? "light" : "dark");
-  const t = useTranslations('header');
+  const t = useTranslations("header");
   // Ensure we only render theme-dependent UI once the component is mounted to avoid
   // a server/client HTML mismatch during hydration.
   const [mounted, setMounted] = React.useState(false);
@@ -24,7 +24,6 @@ const NavBar = () => {
 
   return (
     <>
-    
       <div className="items-center gap-2 md:gap-5 flex mt-20 mb-20 ">
         <div className="relative">
           <MyImage className="rounded-full size-26 md:size-35 border-2 border-neutral-300 dark:border-neutral-700 shadow-lg" />
@@ -34,29 +33,35 @@ const NavBar = () => {
               Try to click !
             </p>
             <div className="relative h-12 md:h-16 w-full rotate-[15deg]">
-              <Image src="/images/fleche.png" alt="arrow" fill className="object-contain filter dark:invert" />
+              <Image
+                src="/images/fleche.png"
+                alt="arrow"
+                fill
+                className="object-contain filter dark:invert"
+              />
             </div>
           </div>
         </div>
         <div className="flex-1">
           <h1 className="text-lg font-medium text-neutral-800 dark:text-neutral-200">
-            {t('name')}
+            {t("name")}
           </h1>
           <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-           {t('title')}
+            {t("title")}
           </p>
           <Link
-            href={'https://fzel.vercel.app/'}
+            href={"https://fzel.vercel.app/"}
             target="blank"
             className="bg-neutral-300 px-2 py-[2px] hover:opacity-80 text-neutral-600 text-sm rounded-full 
             dark:bg-neutral-600 dark:text-neutral-400"
           >
-            {t('link')}
+            {t("link")}
           </Link>
         </div>
-        
-        <div>
-          <SwitchLanguage/>
+
+        <div className="flex items-center gap-2">
+          <SwitchLanguage />
+
           {mounted && (
             <Button
               className="cursor-pointer"
@@ -67,7 +72,15 @@ const NavBar = () => {
               {theme === "dark" ? <Sun /> : <Moon />}
             </Button>
           )}
-          
+          <Link href="/files/FZEL'S_CV.pdf" download target="_blank">
+            <Button 
+            className="cursor-pointer"
+            size="icon" 
+            variant="ghost" 
+            >
+              <Download />
+            </Button>
+          </Link>
         </div>
       </div>
     </>
