@@ -44,12 +44,10 @@ const MyImage = ({ className }: { className?: string }) => {
               <X size={20} />
             </button>
             <Image
-              src={popupSrc}
-              alt="Enlarged Profile"
-              width={1000}
-              height={1000}
-              className="w-full h-auto object-contain max-h-[85vh]"
-            />
+        src="/profile.png"
+        fill
+        alt="Picture of the author"
+      />
           </div>
         </div>
       )}

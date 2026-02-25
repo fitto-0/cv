@@ -72,13 +72,32 @@ const NavBar = () => {
               {theme === "dark" ? <Sun /> : <Moon />}
             </Button>
           )}
-          <Link href="/files/FZEL'S_CV.pdf" download target="_blank">
-            <Button 
-            className="cursor-pointer"
-            size="icon" 
-            variant="ghost" 
+          {/* Mobile: icon only */}
+          <Link
+            href="/files/FZEL'S_CV.pdf"
+            download
+            target="_blank"
+            className="md:hidden"
+          >
+            <Button
+              className="cursor-pointer"
+              size="icon"
+              variant="ghost"
+              aria-label="Download CV"
             >
               <Download />
+            </Button>
+          </Link>
+
+          {/* Desktop: text button */}
+          <Link
+            href="/files/FZEL'S_CV.pdf"
+            download
+            target="_blank"
+            className="hidden md:block"
+          >
+            <Button variant="outline" className="cursor-pointer">
+              {t("resume")}
             </Button>
           </Link>
         </div>
