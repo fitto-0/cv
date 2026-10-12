@@ -13,22 +13,22 @@
     "title": "Professional Experience",
     "items": [
       {
-        "period": "Jan 2026 – Feb 2026",
-        "position": "Web Developement Intern, Syntecxhub - Remote",
+        "period": "May 2026 – Jul 2026",
+        "position": "Software Development Intern, Tanger Med Port Authority (TMPA) - Tangier, Morocco",
         "type": "Internship",
-        "description": "Gained hands-on experience in full-stack web development, working with modern technologies to build and improve real-world applications. Contributed to frontend interfaces, backend logic, and database integration while collaborating in an agile team environment and following clean code and best development practices."
+        "description": "Developed a reusable real-time support chat module for integration into TMPA applications. Built role-based client, agent, and admin workflows with JWT authentication and conversation management. Implemented real-time messaging using Socket.IO and developed REST APIs with Node.js and Express.js, working with React, MongoDB, Mongoose, Docker, and Docker Compose."
+      },
+      {
+        "period": "Jan 2026 – Feb 2026",
+        "position": "Web Development Intern, Syntecxhub - Remote",
+        "type": "Internship",
+        "description": "Developed multiple web applications, including a weather application, user management system, task manager, and e-commerce platform. Built responsive interfaces and full-stack features using modern JavaScript technologies, working with APIs, authentication, databases, CRUD operations, and Git-based workflows."
       },
       {
         "period": "Feb 2025 – Apr 2025",
-        "position": "Web Development Intern, Euroweb Digital - Tangier, Morocco",
+        "position": "Web Developer, Euroweb Digital - Tangier, Morocco",
         "type": "Internship",
-        "description": "Completed a remote internship focused on developing a full e-commerce website using WordPress. Worked on custom theme development, plugin integration, and optimized user experiences-sharpening both technical skills and creative design thinking."
-      },
-      {
-        "period": "Jul 2024 – Aug 2024",
-        "position": "Technical Intern, Label Études - Tangier, Morocco",
-        "type": "Internship",
-        "description": "Supported civil engineering teams through web-based tools and project documentation. Contributed to data analysis and process tracking, gaining exposure to technical project workflows and collaborative teamwork in real-world environments."
+        "description": "Developed and customized responsive websites and e-commerce solutions using WordPress and Divi. Implemented client requirements and improved user experience across desktop and mobile devices."
       }
     ]
   },

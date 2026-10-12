@@ -74,7 +74,7 @@ const NavBar = () => {
           )}
           {/* Mobile: icon only */}
           <Link
-            href="/files/FZEL'S_CV.pdf"
+            href="/files/Fatima_Zahra_Elkasmi.pdf"
             download
             target="_blank"
             className="md:hidden"
@@ -91,7 +91,7 @@ const NavBar = () => {
 
           {/* Desktop: text button */}
           <Link
-            href="/files/FZEL'S_CV.pdf"
+            href="/files/Fatima_Zahra_Elkasmi.pdf"
             download
             target="_blank"
             className="hidden md:block"

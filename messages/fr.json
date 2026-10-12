@@ -13,22 +13,22 @@
     "title": "Expérience Professionnelle",
     "items": [
       {
-        "period": "Jan 2026 – Fév 2026",
-        "position": "Stagiaire en développement web, SyntecxHub – À distance",
+        "period": "Mai 2026 – Juil 2026",
+        "position": "Stagiaire en développement logiciel, Tanger Med Port Authority (TMPA) - Tanger, Maroc",
         "type": "Stage",
-        "description": "Acquisition d’une expérience pratique en développement web full-stack, en utilisant des technologies modernes pour concevoir et améliorer des applications réelles. Contribution au développement des interfaces frontend, à la logique backend et à l’intégration des bases de données, tout en collaborant au sein d’une équipe agile et en respectant les bonnes pratiques de développement et de code propre."
+        "description": "Développement d’un module de chat de support en temps réel, réutilisable et destiné à être intégré aux applications de TMPA. Mise en place de parcours basés sur les rôles (client, agent et administrateur) avec authentification JWT et gestion des conversations. Implémentation de la messagerie en temps réel avec Socket.IO et développement d’API REST avec Node.js et Express.js, en utilisant React, MongoDB, Mongoose, Docker et Docker Compose."
+      },
+      {
+        "period": "Jan 2026 – Fév 2026",
+        "position": "Stagiaire en développement web, Syntecxhub - À distance",
+        "type": "Stage",
+        "description": "Développement de plusieurs applications web, dont une application météo, un système de gestion des utilisateurs, un gestionnaire de tâches et une plateforme e-commerce. Création d’interfaces responsives et de fonctionnalités full-stack avec des technologies JavaScript modernes, en travaillant avec des API, l’authentification, les bases de données, les opérations CRUD et des workflows basés sur Git."
       },
       {
         "period": "Fév 2025 – Avr 2025",
-        "position": "Stagiaire Développement Web, Euroweb Digital - Tanger, Maroc",
+        "position": "Développeuse web, Euroweb Digital - Tanger, Maroc",
         "type": "Stage",
-        "description": "Stage à distance axé sur le développement complet d’un site e-commerce sous WordPress. Travail sur le développement de thèmes personnalisés, l’intégration de plugins et l’optimisation de l’expérience utilisateur - affinant à la fois mes compétences techniques et ma créativité en design."
-      },
-      {
-        "period": "Juil 2024 – Août 2024",
-        "position": "Stagiaire Technique, Label Études - Tanger, Maroc",
-        "type": "Stage",
-        "description": "Soutien aux équipes de génie civil via des outils web et la gestion documentaire de projets. Contribution à l’analyse de données et au suivi des processus, avec une immersion dans les flux de travail techniques et le travail collaboratif en contexte réel."
+        "description": "Développement et personnalisation de sites web responsives et de solutions e-commerce avec WordPress et Divi. Mise en œuvre des besoins clients et amélioration de l’expérience utilisateur sur ordinateur et mobile."
       }
     ]
   },
