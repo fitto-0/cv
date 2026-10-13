@@ -32,7 +32,7 @@ const NavBar = () => {
             <p className="text-[10px] md:text-sm font-medium text-neutral-600 dark:text-neutral-400 -rotate-12 mb-2 italic text-center">
               Try to click !
             </p>
-            <div className="relative h-12 md:h-16 w-full rotate-[15deg]">
+            <div className="relative h-12 md:h-16 w-full rotate-15">
               <Image
                 src="/images/fleche.png"
                 alt="arrow"
@@ -52,7 +52,7 @@ const NavBar = () => {
           <Link
             href={"https://fitto.site/"}
             target="blank"
-            className="bg-neutral-300 px-2 py-[2px] hover:opacity-80 text-neutral-600 text-sm rounded-full 
+            className="bg-neutral-300 px-2 py-0.5 hover:opacity-80 text-neutral-600 text-sm rounded-full 
             dark:bg-neutral-600 dark:text-neutral-400"
           >
             {t("link")}

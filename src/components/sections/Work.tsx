@@ -8,7 +8,7 @@ interface Data {
     period: string,
     position: string,
     type: string,
-    description: string,
+    description: string[],
 }
 
 const WorkExp = () => {
@@ -33,9 +33,11 @@ const WorkExp = () => {
           <p className="text-neutral-600 mb-1 dark:text-neutral-400">
           {item.type}
             </p>
-          <p className="text-neutral-600 text-sm dark:text-neutral-400">
-          {item.description}
-          </p>
+          <ul className="list-disc pl-5 space-y-1 text-neutral-600 text-sm dark:text-neutral-400">
+          {item.description.map((point, i) => (
+            <li key={i}>{point}</li>
+          ))}
+          </ul>
         </div>
       </div>
       ))}  

@@ -7,28 +7,78 @@
   },
   "about": {
     "title": "À propos",
-    "content": "Je suis Fatima Zahra , étudiante en développement full-stack au Maroc, passionnée par le design épuré, les interactions fluides et les expériences digitales esthétiques. Je crée des sites web responsives, des interfaces intuitives et des applications web soignées grâce aux technologies modernes front-end et back-end. J’aime concevoir des interfaces élégantes, donner vie aux idées et transformer les concepts en produits fonctionnels et agréables à utiliser. J’apprends en continu, je développe mes compétences et j’explore de nouveaux outils dans le développement web et l’IA. Une esthétique douce, une grande attention aux détails et une expérience utilisateur réfléchie caractérisent mon travail."
+    "content": "Je suis Fatima Zahra, développeuse full-stack basée au Maroc, spécialisée en développement web et en intelligence artificielle. Je conçois des applications web modernes et responsives, du front-end au back-end, et j’intègre des fonctionnalités basées sur l’IA et le machine learning. Passionnée par le design épuré et l’expérience utilisateur, j’aime transformer les idées en produits fonctionnels et élégants."
   },
   "experience": {
     "title": "Expérience Professionnelle",
     "items": [
       {
-        "period": "Mai 2026 – Juil 2026",
+        "period": "Mai 2026 - Juil 2026",
         "position": "Stagiaire en développement logiciel, Tanger Med Port Authority (TMPA) - Tanger, Maroc",
         "type": "Stage",
-        "description": "Développement d’un module de chat de support en temps réel, réutilisable et destiné à être intégré aux applications de TMPA. Mise en place de parcours basés sur les rôles (client, agent et administrateur) avec authentification JWT et gestion des conversations. Implémentation de la messagerie en temps réel avec Socket.IO et développement d’API REST avec Node.js et Express.js, en utilisant React, MongoDB, Mongoose, Docker et Docker Compose."
+        "description": [
+          "Développement d’un module de chat de support en temps réel, réutilisable et intégrable aux applications de TMPA.",
+          "Mise en place de parcours basés sur les rôles (client, agent et administrateur) avec authentification JWT et gestion des conversations.",
+          "Implémentation de la messagerie en temps réel avec Socket.IO et développement d’API REST avec Node.js et Express.js.",
+          "Utilisation de React, MongoDB, Mongoose, Docker et Docker Compose."
+        ]
       },
       {
-        "period": "Jan 2026 – Fév 2026",
+        "period": "Jan 2026 - Fév 2026",
         "position": "Stagiaire en développement web, Syntecxhub - À distance",
         "type": "Stage",
-        "description": "Développement de plusieurs applications web, dont une application météo, un système de gestion des utilisateurs, un gestionnaire de tâches et une plateforme e-commerce. Création d’interfaces responsives et de fonctionnalités full-stack avec des technologies JavaScript modernes, en travaillant avec des API, l’authentification, les bases de données, les opérations CRUD et des workflows basés sur Git."
+        "description": [
+          "Développement de plusieurs applications web : application météo, système de gestion des utilisateurs, gestionnaire de tâches et plateforme e-commerce.",
+          "Création d’interfaces responsives et de fonctionnalités full-stack avec des technologies JavaScript modernes.",
+          "Travail avec des API, l’authentification, les bases de données, les opérations CRUD et des workflows basés sur Git."
+        ]
       },
       {
-        "period": "Fév 2025 – Avr 2025",
+        "period": "Fév 2025 - Avr 2025",
         "position": "Développeuse web, Euroweb Digital - Tanger, Maroc",
         "type": "Stage",
-        "description": "Développement et personnalisation de sites web responsives et de solutions e-commerce avec WordPress et Divi. Mise en œuvre des besoins clients et amélioration de l’expérience utilisateur sur ordinateur et mobile."
+        "description": [
+          "Développement et personnalisation de sites web responsives et de solutions e-commerce avec WordPress et Divi.",
+          "Mise en œuvre des besoins clients et amélioration de l’expérience utilisateur sur ordinateur et mobile."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets Phares",
+    "items": [
+      {
+        "period": "Sep 2026",
+        "name": "CareerMatch AI",
+        "tech": "Next.js, TypeScript, FastAPI, Python, LangChain, Groq",
+        "link": "https://careermatch-ai-zeta.vercel.app/",
+        "description": [
+          "Outil basé sur l’IA qui indique aux candidats si leur profil correspond à un poste avant de postuler.",
+          "L’utilisateur importe son CV et colle une offre d’emploi ; un pipeline LLM renvoie un score de compatibilité, les points forts, les compétences manquantes et des recommandations.",
+          "Backend FastAPI avec une chaîne de prompts LangChain sur Groq et une sortie JSON structurée."
+        ]
+      },
+      {
+        "period": "Août 2026",
+        "name": "Smart Business Assistant",
+        "tech": "Next.js, Express.js, PostgreSQL, Python, Flask, Scikit-learn, Groq, Redis, Docker",
+        "link": null,
+        "description": [
+          "Plateforme tout-en-un basée sur l’IA permettant aux PME de gérer produits, ventes, clients et boutique en ligne.",
+          "Prévision des ventes, détection d’anomalies, analyse de sentiment des avis et recommandations de réapprovisionnement et de promotions.",
+          "Copilote IA (chatbot LLM), organisations multi-tenant avec gestion des rôles et interface trilingue (EN, FR, AR)."
+        ]
+      },
+      {
+        "period": "Juin 2026",
+        "name": "Smart RAG",
+        "tech": "React, Node.js, Express.js, MongoDB, Groq, JWT",
+        "link": "https://github.com/fitto-0/minirag",
+        "description": [
+          "Application full-stack de RAG (Retrieval-Augmented Generation) permettant de discuter avec ses propres documents PDF.",
+          "Extraction, découpage (chunking), embeddings et recherche sémantique, avec des réponses fondées sur les passages les plus pertinents.",
+          "Juge de sécurité LLM bloquant les injections de prompt, jailbreaks et requêtes hors sujet, avec mémoire de conversation."
+        ]
       }
     ]
   },
@@ -36,19 +86,19 @@
     "title": "Formation",
     "items": [
       {
-        "period": "Oct 2023 – Présent",
-        "institution": "Groupe IKI, Tanger - Génie Informatique",
-        "type": "Licence",
-        "description": "Je poursuis une licence en développement logiciel avec une spécialisation full stack. Apprentissage via des projets concrets et acquisition de compétences solides en frontend, backend et gestion de projet."
+        "period": "Oct 2023 - Oct 2026",
+        "institution": "Groupe IKI, Tanger - Génie Informatique et Développement des Logiciels",
+        "type": "Licence Professionnelle",
+        "description": "Licence professionnelle en développement logiciel avec une spécialisation full stack. Apprentissage via des projets concrets et acquisition de compétences solides en frontend, backend et bases de données, ainsi qu’en intelligence artificielle et data : machine learning, analyse de données (Python, Pandas, Scikit-learn), LLM et RAG."
       },
       {
-        "period": "Sep 2023 – Présent",
+        "period": "Sep 2023 - Présent",
         "institution": "Université Abdelmalek Essaadi, Tanger - Licence en Gestion des Ressources Humaines",
         "type": "Licence",
         "description": "Développement d’expertise en comportement organisationnel, gestion des talents et stratégie managériale. Ce cursus complète mon profil technique par des compétences humaines et collaboratives essentielles."
       },
       {
-        "period": "Sep 2022 – Juin 2023",
+        "period": "Sep 2022 - Juin 2023",
         "institution": "Lycée Moulay Rchid, Maroc",
         "type": "Baccalauréat",
         "description": "Obtenu avec mention, spécialité Sciences de la Vie et de la Terre."

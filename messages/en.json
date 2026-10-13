@@ -7,28 +7,78 @@
   },
   "about": {
     "title": "About",
-    "content": "I'm Fatima Zahra , a full-stack development student from Morocco with a love for clean design, smooth interactions, and beautiful digital experiences. I build responsive websites, intuitive interfaces, and polished web applications using modern frontend and backend technologies. I enjoy creating elegant UIs, bringing ideas to life, and turning concepts into functional, user-friendly products. I am constantly learning, improving my skills, and exploring new tools in web development and AI. Soft aesthetics, attention to detail, and thoughtful user experience define my work."
+    "content": "I'm Fatima Zahra, a full-stack developer from Morocco specializing in web development and artificial intelligence. I build modern, responsive web applications from frontend to backend and integrate AI and machine learning features. Passionate about clean design and user experience, I love turning ideas into functional, elegant products."
   },
   "experience": {
     "title": "Professional Experience",
     "items": [
       {
-        "period": "May 2026 – Jul 2026",
+        "period": "May 2026 - Jul 2026",
         "position": "Software Development Intern, Tanger Med Port Authority (TMPA) - Tangier, Morocco",
         "type": "Internship",
-        "description": "Developed a reusable real-time support chat module for integration into TMPA applications. Built role-based client, agent, and admin workflows with JWT authentication and conversation management. Implemented real-time messaging using Socket.IO and developed REST APIs with Node.js and Express.js, working with React, MongoDB, Mongoose, Docker, and Docker Compose."
+        "description": [
+          "Developed a reusable real-time support chat module for integration into TMPA applications.",
+          "Built role-based client, agent, and admin workflows with JWT authentication and conversation management.",
+          "Implemented real-time messaging using Socket.IO and developed REST APIs with Node.js and Express.js.",
+          "Worked with React, MongoDB, Mongoose, Docker, and Docker Compose."
+        ]
       },
       {
-        "period": "Jan 2026 – Feb 2026",
+        "period": "Jan 2026 - Feb 2026",
         "position": "Web Development Intern, Syntecxhub - Remote",
         "type": "Internship",
-        "description": "Developed multiple web applications, including a weather application, user management system, task manager, and e-commerce platform. Built responsive interfaces and full-stack features using modern JavaScript technologies, working with APIs, authentication, databases, CRUD operations, and Git-based workflows."
+        "description": [
+          "Developed multiple web applications, including a weather application, user management system, task manager, and e-commerce platform.",
+          "Built responsive interfaces and full-stack features using modern JavaScript technologies.",
+          "Worked with APIs, authentication, databases, CRUD operations, and Git-based workflows."
+        ]
       },
       {
-        "period": "Feb 2025 – Apr 2025",
+        "period": "Feb 2025 - Apr 2025",
         "position": "Web Developer, Euroweb Digital - Tangier, Morocco",
         "type": "Internship",
-        "description": "Developed and customized responsive websites and e-commerce solutions using WordPress and Divi. Implemented client requirements and improved user experience across desktop and mobile devices."
+        "description": [
+          "Developed and customized responsive websites and e-commerce solutions using WordPress and Divi.",
+          "Implemented client requirements and improved user experience across desktop and mobile devices."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "period": "Sep 2026",
+        "name": "CareerMatch AI",
+        "tech": "Next.js, TypeScript, FastAPI, Python, LangChain, Groq",
+        "link": "https://careermatch-ai-zeta.vercel.app/",
+        "description": [
+          "AI tool that tells candidates whether their profile fits a role before they apply.",
+          "Users upload a CV and paste a job description; an LLM pipeline returns a compatibility score, strengths, missing skills, and recommendations.",
+          "FastAPI backend with a LangChain prompt chain on Groq and structured JSON output."
+        ]
+      },
+      {
+        "period": "Aug 2026",
+        "name": "Smart Business Assistant",
+        "tech": "Next.js, Express.js, PostgreSQL, Python, Flask, Scikit-learn, Groq, Redis, Docker",
+        "link": null,
+        "description": [
+          "AI-powered all-in-one platform for small and medium businesses to manage products, sales, customers, and an online storefront.",
+          "Sales forecasting, anomaly detection, review sentiment analysis, and restock and promotion recommendations.",
+          "LLM copilot chatbot, multi-tenant organizations with role-based access, and a trilingual interface (EN, FR, AR)."
+        ]
+      },
+      {
+        "period": "Jun 2026",
+        "name": "Smart RAG",
+        "tech": "React, Node.js, Express.js, MongoDB, Groq, JWT",
+        "link": "https://github.com/fitto-0/minirag",
+        "description": [
+          "Full-stack Retrieval-Augmented Generation app that lets users chat with their own PDF documents.",
+          "PDF parsing, chunking, embeddings, and semantic search, with answers grounded in the most relevant passages.",
+          "LLM security judge that blocks prompt-injection, jailbreak, and off-topic requests, plus conversation memory."
+        ]
       }
     ]
   },
@@ -36,19 +86,19 @@
     "title": "Education",
     "items": [
       {
-        "period": "Oct 2023 – Present",
+        "period": "Oct 2023 - Oct 2026",
         "institution": "Groupe IKI, Tangier - Information Engineering",
-        "type": "Undergraduate Program",
-        "description": "Pursuing a degree in Software Development with an emphasis on full stack technologies. Learning through real-world projects and gaining strong skills in frontend, backend, and project management."
+        "type": "Bachelor",
+        "description": "Professional bachelor's degree in Software Development with an emphasis on full stack technologies. Learning through real-world projects and gaining strong skills in frontend, backend, and databases, as well as AI and data: machine learning, data analysis (Python, Pandas, Scikit-learn), LLMs, and RAG."
       },
       {
-        "period": "Sep 2023 – Present",
+        "period": "Sep 2023 - Present",
         "institution": "Abdelmalek Essaadi University, Tangier - B.A. in Human Resources Management",
         "type": "Bachelor's Degree",
         "description": "Building expertise in organizational behavior, talent management, and leadership strategy. This program enriches my technical background with essential human-centric and collaboration skills."
       },
       {
-        "period": "Sep 2022 – Jun 2023",
+        "period": "Sep 2022 - Jun 2023",
         "institution": "Moulay Rchid High School, Morocco",
         "type": "High School Diploma",
         "description": "Earned with honors, specializing in Life and Earth Sciences."
